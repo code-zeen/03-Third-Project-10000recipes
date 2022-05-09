@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+  .wrapper .aside {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .aside .snb {
+    display: none;
+  }
+
+
+  .ads {
+    margin-bottom: 20px;
+  }
+  .ads a {
+    display: none;
+  }
+  .ads a:first-child {
+    display: block;
+  }
+  .ads img {
+    max-width: 100%;
+  }
+
+
+  .container {
+    width: 100%;
+  }
+  .grid {
+    width: 94%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
